@@ -252,7 +252,7 @@
                  <div class="blogs">
                      <a href="https://drive.google.com/file/d/1VkXs4kfuL6675MrHxh3o-gAQDQI6tCFm/view?usp=sharing">
                      <div class="img">
-                         <img src="style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 129.4118%;><iframe src="https://drive.google.com/file/d/1VkXs4kfuL6675MrHxh3o-gAQDQI6tCFm/preview?usp=embed_googleplus" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe>
+                         <img src="aws.png">
                         <div class="blog-date">15 jan,23</div>
                      </div>
                      <div class="blog-text">
@@ -263,7 +263,7 @@
                  <div class="blogs">
                     <a href="https://drive.google.com/file/d/1cQAnssc9YB8V4MrygwIPPrCXdTtBeG1J/view?usp=sharing">
                     <div class="img">
-                        <img src="style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 129.4118%;><iframe src="https://drive.google.com/file/d/1cQAnssc9YB8V4MrygwIPPrCXdTtBeG1J/preview?usp=embed_googleplus" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe>
+                        <img src="python.png">
                         <div class="blog-date">18 April,22</div>
                     </div>
                     <div class="blog-text">
@@ -274,7 +274,7 @@
                 <div class="blogs">
                     <a href="https://drive.google.com/file/d/1mEq9efnO2IpI__s2khwS8YDOgmt3-vj8/view?usp=sharing">
                     <div class="img">
-                        <img src=" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 129.4118%;><iframe src="https://drive.google.com/file/d/1mEq9efnO2IpI__s2khwS8YDOgmt3-vj8/preview?usp=embed_googleplus" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe>
+                        <img src="data.png">
                         <div class="blog-date">04 AUG,22</div>
                     </div>
                     <div class="blog-text">
@@ -285,7 +285,7 @@
                 <div class="blogs">
                     <a href="https://drive.google.com/file/d/1eaLOH29SJcmc5ROiXgPuLICCZP1nrwkj/view?usp=sharing">
                     <div class="img">
-                        <img src=" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 129.4118%;><iframe src="https://drive.google.com/file/d/1eaLOH29SJcmc5ROiXgPuLICCZP1nrwkj/preview?usp=embed_googleplus" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe>">
+                        <img src="html.png">
                         <div class="blog-date">15 MAR,22</div>
                     </div>
                     <div class="blog-text">
@@ -296,7 +296,7 @@
                 <div class="blogs">
                     <a href="https://drive.google.com/file/d/1ZOSI96rSmv3TjNoA9AqJVacCY-dxd3cQ/view?usp=sharing">
                     <div class="img">
-                        <img src=" style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 129.4118%;><iframe src="https://drive.google.com/file/d/1ZOSI96rSmv3TjNoA9AqJVacCY-dxd3cQ/preview?usp=embed_googleplus" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe>
+                        <img src="oasis.png">
                         <div class="blog-date">5 April,23</div>
                     </div>
                     <div class="blog-text">
@@ -307,7 +307,7 @@
                 <div class="blogs">
                     <a href="https://drive.google.com/file/d/1g7OdXyq5SUzNMTD-sx3kBumQ_mULs0z6/view?usp=sharing">
                     <div class="img">
-                        <img src= "style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 129.4118%;><iframe src="https://drive.google.com/file/d/1g7OdXyq5SUzNMTD-sx3kBumQ_mULs0z6/preview?usp=embed_googleplus" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen></iframe>
+                        <img src= "phn.png">
                         <div class="blog-date">02 June,23</div>
                     </div>
                     <div class="blog-text">
@@ -387,167 +387,7 @@
     <!--all the divisions-->
     <script src="jquery.min.js"></script>
 
-    <script>$(window).on('load',function(){
-        gsap.to('#loader',1,{y:"-100%"});
-        gsap.to('#loader',1,{opacity:0});
-        gsap.to('#loader',0,{display:"none",delay:1});
-        gsap.to('#header',0,{display:"block",delay:1})
-        gsap.to('#navigation-content',0,{display:"none"});
-        gsap.to('#navigation-content',0,{display:"flex",delay:1});
-      })
-      $(function(){
-        $('.color-panel').on("click",function(e) {
-          e.preventDefault();
-          $('.color-changer').toggleClass('color-changer-active');
-      });
-      $('.colors a').on("click",function(e) {
-        e.preventDefault();
-        var attr = $(this).attr("title");
-        console.log(attr);
-        $('head').append('<link rel="stylesheet" href="css/'+attr+'.css">');
-      });
-      });
-      $(function(){
-           $('.menubar').on('click',function(){
-               gsap.to('#navigation-content',.6,{y:0});
-           })
-           $('.navigation-close').on('click',function(){
-              gsap.to('#navigation-content',.6,{y:"-100%"});
-          });
-         }); 
-      
-      $(function(){
-          var TxtRotate = function(el, toRotate, period) {
-              this.toRotate = toRotate;
-              this.el = el;
-              this.loopNum = 0;
-              this.period = parseInt(period, 10) || 2000;
-              this.txt = '';
-              this.tick();
-              this.isDeleting = false;
-            };
-            
-            TxtRotate.prototype.tick = function() {
-              var i = this.loopNum % this.toRotate.length;
-              var fullTxt = this.toRotate[i];
-            
-              if (this.isDeleting) {
-                this.txt = fullTxt.substring(0, this.txt.length - 1);
-              } else {
-                this.txt = fullTxt.substring(0, this.txt.length + 1);
-              }
-            
-              this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
-            
-              var that = this;
-              var delta = 200 - Math.random() * 100;
-            
-              if (this.isDeleting) { delta /= 2; }
-            
-              if (!this.isDeleting && this.txt === fullTxt) {
-                delta = this.period;
-                this.isDeleting = true;
-              } else if (this.isDeleting && this.txt === '') {
-                this.isDeleting = false;
-                this.loopNum++;
-                delta = 100;
-              }
-            
-              setTimeout(function() {
-                that.tick();
-              }, delta);
-            };
-            
-            window.onload = function() {
-              var elements = document.getElementsByClassName('txt-rotate');
-              for (var i=0; i<elements.length; i++) {
-                var toRotate = elements[i].getAttribute('data-rotate');
-                var period = elements[i].getAttribute('data-period');
-                if (toRotate) {
-                  new TxtRotate(elements[i], JSON.parse(toRotate), period);
-                }
-              }
-              // INJECT CSS
-              var css = document.createElement("style");
-              css.type = "text/css";
-              css.innerHTML = ".txt-rotate > .wrap { border-right: 0em solid #666 ; }";
-              document.body.appendChild(css);
-            };
-      })
-      $(function(){
-      
-          $('#about-link').on('click',function(){
-            gsap.to('#navigation-content',0,{display:"none",delay:.7});
-            gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
-        gsap.to('#header',0,{display:"none"});
-      gsap.to('#blog',0,{display:"none"});
-      gsap.to('#portfolio',0,{display:"none"});
-         gsap.to('#breaker',0,{display:"block"});
-         gsap.to('#breaker-two',0,{display:"block",delay:.1});
-      gsap.to('#contact',0,{display:"none"});
-         gsap.to('#breaker',0,{display:"none",delay:2});
-         gsap.to('#breaker-two',0,{display:"none",delay:2});
-         gsap.to('#about',0,{display:"block",delay:.7});
-         gsap.to('#navigation-content',0,{display:'flex',delay:2});
-       })
-       $('#contact-link').on('click',function(){
-         gsap.to('#navigation-content',0,{display:"none",delay:.7});
-         gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
-      gsap.to('#header',0,{display:"none"});
-      gsap.to('#about',0,{display:"none"});
-      gsap.to('#blog',0,{display:"none"});
-      gsap.to('#portfolio',0,{display:"none"});
-      gsap.to('#breaker',0,{display:"block"});
-      gsap.to('#breaker-two',0,{display:"block",delay:.1});
-      gsap.to('#breaker',0,{display:"none",delay:2});
-      gsap.to('#breaker-two',0,{display:"none",delay:2});
-      gsap.to('#contact',0,{display:"block",delay:.7});
-      gsap.to('#navigation-content',0,{display:'flex',delay:2});
-      })
-      $('#portfolio-link').on('click',function(){
-        gsap.to('#navigation-content',0,{display:"none",delay:.7});
-        gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
-      gsap.to('#header',0,{display:"none"});
-      gsap.to('#about',0,{display:"none"});
-      gsap.to('#contact',0,{display:"none"});
-      gsap.to('#blog',0,{display:"none"});
-      gsap.to('#breaker',0,{display:"block"});
-      gsap.to('#breaker-two',0,{display:"block",delay:.1});
-      gsap.to('#breaker',0,{display:"none",delay:2});
-      gsap.to('#breaker-two',0,{display:"none",delay:2});
-      gsap.to('#portfolio',0,{display:"block",delay:.7});
-      gsap.to('#navigation-content',0,{display:'flex',delay:2});
-      })
-      $('#blog-link').on('click',function(){
-        gsap.to('#navigation-content',0,{display:"none",delay:.7});
-        gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
-      gsap.to('#header',0,{display:"none"});
-      gsap.to('#about',0,{display:"none"});
-      gsap.to('#portfolio',0,{display:"none"});
-      gsap.to('#contact',0,{display:"none"});
-      gsap.to('#breaker',0,{display:"block"});
-      gsap.to('#breaker-two',0,{display:"block",delay:.1});
-      gsap.to('#breaker',0,{display:"none",delay:2});
-      gsap.to('#breaker-two',0,{display:"none",delay:2});
-      gsap.to('#blog',0,{display:"block",delay:.7});
-      gsap.to('#navigation-content',0,{display:'flex',delay:2});
-      })
-      $('#home-link').on('click',function(){
-        gsap.to('#navigation-content',0,{display:"none",delay:.7});
-        gsap.to('#navigation-content',0,{y:'-100%',delay:.7});
-      gsap.to('#header',0,{display:"none"});
-      gsap.to('#about',0,{display:"none"});
-      gsap.to('#portfolio',0,{display:"none"});
-      gsap.to('#contact',0,{display:"none"});
-      gsap.to('#blog',0,{display:"none"});
-      gsap.to('#breaker',0,{display:"block"});
-      gsap.to('#breaker-two',0,{display:"block",delay:.1});
-      gsap.to('#breaker',0,{display:"none",delay:2});
-      gsap.to('#breaker-two',0,{display:"none",delay:2});
-      gsap.to('#header',0,{display:"block",delay:.7});
-      gsap.to('#navigation-content',0,{display:'flex',delay:2});
-      })
-      })</script>
+    <script src="index.js"></script>
 
 
 </body>
