@@ -28,6 +28,14 @@
 
 ![temp](https://github.com/dileepreddy49/portfolio/assets/125122436/d0081c1f-f63b-4924-a2ba-fd77520a08be)
 
+![html](https://github.com/dileepreddy49/portfolio/assets/125122436/b1796eaf-11ff-493f-b6df-9bf8c75ba12e)
+![data](https://github.com/dileepreddy49/portfolio/assets/125122436/5c91c788-02c1-407e-a1a5-b5d6daceecd3)
+![oasis](https://github.com/dileepreddy49/portfolio/assets/125122436/19ba6280-053f-424d-b650-956b9ca3473d)
+![phn](https://github.com/dileepreddy49/portfolio/assets/125122436/5c95c203-b171-49ab-a387-2c8d9d48c61b)
+![python](https://github.com/dileepreddy49/portfolio/assets/125122436/de24ecd6-cd11-462a-aef0-b79bd1628859)
+![aws](https://github.com/dileepreddy49/portfolio/assets/125122436/d08d3bb6-0a4e-40a1-8efa-f05eabae4fc9)
+
+
 
 
 
