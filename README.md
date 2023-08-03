@@ -1,6 +1,6 @@
 # portfolio
 ![man](https://github.com/dileepreddy49/portfolio/assets/125122436/7b36007c-23d2-4380-823d-fe617bd104d9)
-![about](https://github.com/dileepreddy49/portfolio/assets/125122436/8d8ad403-000f-41db-884a-236ceec4e081)
+
 ![bulb](https://github.com/dileepreddy49/portfolio/assets/125122436/a90050ea-eee4-442e-9e69-75775cfbee3c)
 ![call](https://github.com/dileepreddy49/portfolio/assets/125122436/8bfde187-fc72-4f52-a97b-8928997f974c)
 ![coding](https://github.com/dileepreddy49/portfolio/assets/125122436/047cb797-063d-4940-9406-eecaba5d80c4)
